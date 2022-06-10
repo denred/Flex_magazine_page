@@ -128,6 +128,8 @@ body {
     background-color: white;
 }
 
+/* FLOATS */
+/* 
 .img-product,
 .middle-info,
 .price {
@@ -151,4 +153,40 @@ body {
 
 .clear {
     clear: both;
+} */
+
+
+/* FLEXBOX */
+
+.container {
+    width: 875px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.product-details {
+    flex: 0 1 250px;
+    padding: 20px 0;
+}
+
+.middle-info {
+    flex: 0 0 275px;
+    padding: 20px 0;
+}
+
+.price-shipping {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    margin: 0;
+}
+
+.shipping {
+    margin: 0;
 }
